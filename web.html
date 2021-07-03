@@ -1,0 +1,155 @@
+<!--this is my first code-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+
+<body>
+    <h1 style="text-align:center;color: brown;background-color:rgb(233, 190, 100);"><em>Lorem is something that i dont understand</em></h1>
+    <p>Lorem ipsum dolor <b>sit amet</b>, consectetur adipisicing <em>elit</em>. Asperiores id amet maiores cum, deserunt quis dignissimos. Soluta, unde! Impedit, incidunt.</p>
+
+    <!-- 'del' tag is used to put a line on a sentence -->
+    <p><del>delete the line</del></p>
+
+    <!-- 'u' tag is used to underline a sentence -->
+    <p><u>underline this sentence.</u></p>
+    h<sub>2</sub>o
+    <br> a<sup>2</sup>+ b<sup>2</sup>
+    <br>
+
+    <!-- 'abbr'=  Abbreviation element -->
+    <p><abbr title="Bangladesh">Bd</abbr> is beautiful country</p>
+    <br>
+    <!-- 'bdo'= Bidirectional Text Override -->
+    <bdo dir="ltr" ;>starts from left</bdo>
+    <address>house 500, street 2;</address>
+    <cite>basha nai</cite>
+
+    <br>
+    <!--adding link of a site-->
+    <a href="https://www.google.com/" target="_blank" style="color:black;background-color:brown;"><b><i>click here</i></b></a>
+    <br><br>
+
+    <a href="https://www.google.com/search?q=baby&sxsrf=ALeKk028dvioF03JXKf2GpMh7QbbEUjzZw:1614421107446&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiF3YGl64nvAhVFjOYKHRc6BPUQ_AUoAXoECBQQAw&biw=1229&bih=633" target="_blank">
+        <!--adding image-->
+        <img src="images/baby.jpg" alt="baby" width="300">
+    </a>
+    <br><br>
+    <!--creating table-->
+    <table border="2">
+        <tr>
+            <th><i>First name</i></th>
+            <th><i>last name</i></th>
+            <th><i>age</i></th>
+        </tr>
+        <tr>
+            <td>GM</td>
+            <td>Shimon</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>GM</td>
+            <td>Shawon</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <!--unordered list-->
+    <ul style="list-style-type: square;">
+        <li>Orange</li>
+        <li>Kola</li>
+        <li>Apple</li>
+    </ul>
+    <!--ordered list-->
+    <p style="color: chocolate;">Name of the subjet:</p>
+    <ol type="I">
+        <li>DS</li>
+        <li>DL</li>
+        <li>TP1</li>
+    </ol>
+
+    <!--description list-->
+    <di>
+        <dt>Coffee</dt>
+        <dd>-black drink</dd>
+        <dt>Milk</dt>
+        <dd>-white drink</dd>
+    </di>
+
+    <!-- iframe -->
+    <iframe src="https://www.prothomalo.com/" width="800px" height="500px" name="iframe_a" frameborder="0"></iframe>
+
+    <br><br>
+    <p>press the "click here" to load the daily star website in iframe</p>
+    <a href="https://www.thedailystar.net/" target="iframe_a">click here</a>
+
+    <br><br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ijpQHr4274g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.9327626048225!2d89.5646975671606!3d22.80495518054273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff8fe0d8ba2e53%3A0x2224fee291b40f21!2sMia%20Para%20Rod%2C%20Khulna!5e0!3m2!1sen!2sbd!4v1614507400666!5m2!1sen!2sbd"
+        width="600" height="450" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+    <br><br>
+    <!-- 
+    <video width="500" controls autoplay muted>
+        <source src="pubg.mp4" type="video/mp4"> 
+    </video> -->
+
+    <!-- form -->
+    <form action="#" method="get">
+        <fieldset border="2">
+            <legend>Fill up form</legend>
+            First Name <br>
+            <input type="text" placeholder="enter your first name">
+            <br><br> Last name <br>
+            <input type="text" placeholder="enter your last name">
+            <br><br>
+            <input type="radio" name="gender"> Female
+            <br>
+            <input type="radio" name="gender"> Male
+            <br> <br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <br><br>
+    <!-- select option -->
+    <select>
+        <option value="ds">DS</option>
+        <option value="tp1">tp1</option>
+        <option value="DL">DL</option>
+        <option value="Tis">Tis</option>
+    </select>
+    <br><br>
+    <!-- textarea -->
+    <textarea cols="30" rows="10" placeholder="enter your text"></textarea>
+    <br> <br>
+    <p>Enter your browser name:</p>
+    <form action="#">
+        <input list="browser">
+        <datalist id="browser">
+            <option value="mozilla firefox">
+            <option value="microsoft edge">
+            <option value="chrome">
+        </datalist>
+    </form>
+
+    <form action="#" method="POST">
+        username:
+        <input name="username" type="username">
+        <br> password:
+        <input name="password" type="password">
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
